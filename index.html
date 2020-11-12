@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- JQuery -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&family=Raleway:wght@500;800&display=swap" rel="stylesheet">
+  <!-- Slick -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- Default -->
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/common.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <title>Around US ENTERTAINMENT</title>
+</head>
+<body>
+  <div id="wrapper">
+    <!-- Header -->
+    <header class="header">
+      <div class="header__inner">
+        <h1 class="logo">
+          <a class="logo__link" href="/">
+            <span>around us</span>
+          </a>
+        </h1>
+        <div class="header__submenu-bg"></div>
+        <!-- Header - Global Nav -->
+        <nav class="global-nav">
+          <ul class="global-nav__menu-list">
+            <li class="global-nav__menu-item">
+              <a class="global-nav__menu-link" href="#">
+                <span class="text-effect--underline">About Around US</span>
+              </a>
+              <div class="global-nav__submenu">
+                <ul class="global-nav__submenu-list">
+                  <li class="global-nav__submenu-item">
+                    <a href="#">
+                      <span class="text-effect--underline">Company Introdution</span>
+                    </a>
+                  </li>
+                  <li class="global-nav__submenu-item">
+                    <a href="#">
+                      <span class="text-effect--underline">History</span>
+                    </a>
+                  </li>
+                  <li class="global-nav__submenu-item">
+                    <a href="#">
+                      <span class="text-effect--underline">Contact Us</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="global-nav__menu-item">
+              <a class="global-nav__menu-link" href="#">
+                <span class="text-effect--underline">HIGHLIGHT</span>
+              </a>
+              <div class="global-nav__submenu">
+                <ul class="global-nav__submenu-list">
+                  <li class="global-nav__submenu-item">
+                    <a href="#">
+                      <span class="text-effect--underline">Artist Home</span>
+                    </a>
+                  </li>
+                  <li class="global-nav__submenu-item">
+                    <a href="#">
+                      <span class="text-effect--underline">Career</span>
+                    </a>
+                  </li>
+                  <li class="global-nav__submenu-item">
+                    <a href="#">
+                      <span class="text-effect--underline">Schedule</span>
+                    </a>
+                  </li>
+                  <li class="global-nav__submenu-item">
+                    <a href="#">
+                      <span class="text-effect--underline">Atrist Notice</span>
+                    </a>
+                  </li>
+                  <li class="global-nav__submenu-item">
+                    <a href="#">
+                      <span class="text-effect--underline">Staff Notice</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="global-nav__menu-item">
+              <a class="global-nav__menu-link" href="#">
+                <span class="text-effect--underline">Announce</span>
+              </a>
+              <div class="global-nav__submenu">
+                <ul class="global-nav__submenu-list">
+                  <li class="global-nav__submenu-item">
+                    <a href="#">
+                      <span class="text-effect--underline">Notice</span>
+                    </a>
+                  </li>
+                  <li class="global-nav__submenu-item">
+                    <a href="#">
+                      <span class="text-effect--underline">News</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>  
+            </li>
+            <li class="global-nav__menu-item">
+              <a class="global-nav__menu-link" href="#">
+                <span class="text-effect--underline">Audition</span>
+              </a>
+              <div class="global-nav__submenu">
+                <ul class="global-nav__submenu-list">
+                  <li class="global-nav__submenu-item">
+                    <a href="#">
+                      <span class="text-effect--underline">Online Audition</span>
+                    </a>
+                  </li>
+                  <li class="global-nav__submenu-item">
+                    <a href="#">
+                      <span class="text-effect--underline">Audition Notice</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <!-- Header - Search -->
+        <div class="header__search-wrap">
+          <div class="header__btn-search">
+            <button type="button">Search</button>
+          </div>
+          <div class="header__search-box">
+            <form class="search-form" action="">
+              <div class="search-input">
+                <input type="text" placeholder="검색어를 입력하세요.">
+              </div>
+            </form>
+          </div>
+          <div class="btn-close">
+            <button class="btn-icon btn-icon--close" type="button">검색창 닫기</button>
+          </div>
+        </div>
+        <!-- Only Mobile -->
+        <div class="header__btn-mobile-menu">
+          <button class="btn-icon btn-icon--menu" type="button">Menu</button>
+        </div>
+      </div>
+    </header>
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+      <div class="mobile-nav__container">
+        <div class="mobile-nav__top">
+          <h1 class="logo">
+            <a class="logo__link" href="/">around us</a>
+          </h1>
+          <div class="btn-close">
+            <button class="btn-icon btn-icon--close" type="button">닫기</button>
+          </div>
+        </div>
+        <!-- Mobile - Search -->
+        <div class="mobile-nav__search-box">
+          <form class="search-form" action="">
+            <div class="search-input">
+              <input type="text" placeholder="검색어를 입력하세요.">
+            </div>
+          </form>
+        </div>
+        <!-- Mobile - Menu -->
+        <div class="mobile-nav__menu">
+          <ul class="mobile-nav__menu-list">
+            <li class="mobile-nav__menu-item">
+              <a class="mobile-nav__menu-link" href="#">About Around US</a>
+              <div class="mobile-nav__submenu">
+                <ul class="mobile-nav__submenu-list">
+                  <li class="mobile-nav__submenu-item">
+                    <a href="#">Company Introdution</a>
+                  </li>
+                  <li class="mobile-nav__submenu-item">
+                    <a href="#">History</a>
+                  </li>
+                  <li class="mobile-nav__submenu-item">
+                    <a href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-nav__menu-item">
+              <a class="mobile-nav__menu-link" href="#">HIGHLIGHT</a>
+              <div class="mobile-nav__submenu">
+                <ul class="mobile-nav__submenu-list">
+                  <li class="mobile-nav__submenu-item">
+                    <a href="#">Artist Home</a>
+                  </li>
+                  <li class="mobile-nav__submenu-item">
+                    <a href="#">Career</a>
+                  </li>
+                  <li class="mobile-nav__submenu-item">
+                    <a href="#">Schedule</a>
+                  </li>
+                  <li class="mobile-nav__submenu-item">
+                    <a href="#">Atrist Notice</a>
+                  </li>
+                  <li class="mobile-nav__submenu-item">
+                    <a href="#">Staff Notice</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-nav__menu-item">
+              <a class="mobile-nav__menu-link" href="#">Announce</a>
+              <div class="mobile-nav__submenu">
+                <ul class="mobile-nav__submenu-list">
+                  <li class="mobile-nav__submenu-item">
+                    <a href="#">Notice</a>
+                  </li>
+                  <li class="mobile-nav__submenu-item">
+                    <a href="#">News</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-nav__menu-item">
+              <a class="mobile-nav__menu-link" href="#">Audition</a>
+              <div class="mobile-nav__submenu">
+                <ul class="mobile-nav__submenu-list">
+                  <li class="mobile-nav__submenu-item">
+                    <a href="#">Online Audition</a>
+                  </li>
+                  <li class="mobile-nav__submenu-item">
+                    <a href="#">Audition Notice</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Main -->
+    <main class="main">
+      <div class="main__container">
+        <!-- Main - Slider -->
+        <div class="slider">
+          <div class="slider__item slider__item01">
+            <div class="slider__left-text">
+              <p class="slider__desc">YOON DU JUN THE 1st MINI ALBUM</p>
+              <strong class="slider__subject">[Daybreak]</strong>
+              <a class="slider__link" href="#">
+                <span class="text-effect--underline">▶ HIGHLIGHT MEDLEY</span>
+              </a>
+            </div>
+          </div>
+          <div class="slider__item slider__item02">
+            <div class="slider__left-text">
+              <p class="slider__desc">YOON DU JUN THE 1st MINI ALBUM</p>
+              <strong class="slider__subject">[Daybreak]</strong>
+              <a class="slider__link" href="#">
+                <span class="text-effect--underline">▶ TRACK LIST</span>
+              </a>
+            </div>
+          </div>
+          <div class="slider__item slider__item03">
+            <div class="slider__left-text">
+              <p class="slider__desc">YOON DU JUN THE 1st MINI ALBUM</p>
+              <strong class="slider__subject">[Daybreak]</strong>
+              <a class="slider__link" href="#">
+                <span class="text-effect--underline">▶ CONCEPT PHOTO -2-</span>
+              </a>
+            </div>
+          </div>
+          <div class="slider__item slider__item04">
+            <div class="slider__left-text">
+              <p class="slider__desc">YOON DU JUN THE 1st MINI ALBUM</p>
+              <strong class="slider__subject">[Daybreak]</strong>
+              <a class="slider__link" href="#">
+                <span class="text-effect--underline">▶ CONCEPT PHOTO -1-</span>
+              </a>
+            </div>
+          </div>
+          <div class="slider__item slider__item05">
+            <div class="slider__left-text">
+              <p class="slider__desc">YOON DU JUN THE 1st MINI ALBUM</p>
+              <strong class="slider__subject">[Daybreak]</strong>
+              <a class="slider__link" href="#">
+                <span class="text-effect--underline">▶ ALBUM PREVIEW</span>
+              </a>
+            </div>
+          </div>
+          <div class="slider__item slider__item06">
+            <div class="slider__left-text">
+              <p class="slider__desc">YOON DU JUN THE 1st MINI ALBUM</p>
+              <strong class="slider__subject">[Daybreak]</strong>
+              <a class="slider__link" href="#">
+                <span class="text-effect--underline">▶ SCHEDULE PLAN</span>
+              </a>
+            </div>
+          </div>
+          <div class="slider__item slider__item07">
+            <div class="slider__left-text">
+              <p class="slider__desc"></p>
+              <strong class="slider__subject"></strong>
+              <a class="slider__link" href="#">
+                <span class="text-effect--underline"></span>
+              </a>
+            </div>
+          </div>
+          <div class="slider__item slider__item08">
+            <div class="slider__left-text">
+              <p class="slider__desc"></p>
+              <strong class="slider__subject"></strong>
+              <a class="slider__link" href="#">
+                <span class="text-effect--underline"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="main__section">
+          <!-- Content - Video -->
+          <section class="content content-video">
+            <div class="content__header">
+              <h2 class="content__title">Video</h2>
+            </div>
+            <div class="content__slider">
+              <div class="content__slider-item">
+                <a class="content__slider-link" href="#">
+                  <div class="content__img-cover content__img-cover01"></div>
+                  <div class="content__left-text">
+                    <strong class="content__subject text-effect--underline">
+                      <span class="sr-only">Youtube로 연결</span>
+                      [MV] 윤두준 (YOON DU JUN) - Lonely Night
+                    </strong>
+                    <span class="content__sub-text text-effect--underline">
+                      윤두준
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="content__slider-item">
+                <a class="content__slider-link" href="#">
+                  <div class="content__img-cover content__img-cover02"></div>
+                  <div class="content__left-text">
+                    <strong class="content__subject text-effect--underline">
+                      <span class="sr-only">Youtube로 연결</span>
+                      [Teaser2] 윤두준 (YOON DU JUN) - Lonely Night
+                    </strong>
+                    <span class="content__sub-text text-effect--underline">
+                      윤두준
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="content__slider-item">
+                <a class="content__slider-link" href="#">
+                  <div class="content__img-cover content__img-cover03"></div>
+                  <div class="content__left-text">
+                    <strong class="content__subject text-effect--underline">
+                      <span class="sr-only">Youtube로 연결</span>
+                      [Teaser1] 윤두준 (YOON DU JUN) - Lonely Night
+                    </strong>
+                    <span class="content__sub-text text-effect--underline">
+                      윤두준
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="content__slider-item">
+                <a class="content__slider-link" href="#">
+                  <div class="content__img-cover content__img-cover04"></div>
+                  <div class="content__left-text">
+                    <strong class="content__subject text-effect--underline">
+                      <span class="sr-only">Youtube로 연결</span>
+                      [MV] 손동운(SON DONGWOON) - 편해지자
+                    </strong>
+                    <span class="content__sub-text text-effect--underline">
+                      손동운
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="content__slider-item">
+                <a class="content__slider-link" href="#">
+                  <div class="content__img-cover content__img-cover05"></div>
+                  <div class="content__left-text">
+                    <strong class="content__subject text-effect--underline">
+                      <span class="sr-only">Youtube로 연결</span>
+                      [Teaser] 손동운(SON DONGWOON) - 편해지자
+                    </strong>
+                    <span class="content__sub-text text-effect--underline">
+                      손동운
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+          <!-- Content - News -->
+          <section class="content content-news">
+            <div class="content__header">
+              <h2 class="content__title">News</h2>
+              <div class="content__header-right">
+                <a class="btn-icon btn-icon--more" href="#">News 더보기</a>
+              </div>
+            </div>
+            <div class="content__slider">
+              <div class="content__slider-item">
+                <a class="content__slider-link" href="#">
+                  <div class="content__img-cover content__img-cover01"></div>
+                  <div class="content__left-text">
+                    <strong class="content__subject text-effect--underline">
+                      <span class="sr-onln">기사</span>
+                      ‘식샤님 컴백’ 윤두준, M2 손잡고 신개념 먹방 '배부른 소리' 론칭 [공식]
+                    </strong>
+                    <span class="content__sub-text text-effect--underline">
+                      스포츠동아
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="content__slider-item">
+                <a class="content__slider-link" href="#">
+                  <div class="content__img-cover content__img-cover02"></div>
+                  <div class="content__left-text">
+                    <strong class="content__subject text-effect--underline">
+                      <span class="sr-onln">기사</span>
+                      [스타포커스] 하이라이트, 노력과 성장의 11년
+                    </strong>
+                    <span class="content__sub-text text-effect--underline">
+                      톱스타뉴스
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="content__slider-item">
+                <a class="content__slider-link" href="#">
+                  <div class="content__img-cover content__img-cover03"></div>
+                  <div class="content__left-text">
+                    <strong class="content__subject text-effect--underline">
+                      <span class="sr-onln">기사</span>
+                      이기광 측 "김근태 명예훼손 고소 승소, 항소해도 끝까지 최선 다할 것" [전문]
+                    </strong>
+                    <span class="content__sub-text text-effect--underline">
+                      엑스포츠뉴스
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="content__slider-item">
+                <a class="content__slider-link" href="#">
+                  <div class="content__img-cover content__img-cover04"></div>
+                  <div class="content__left-text">
+                    <strong class="content__subject text-effect--underline">
+                      <span class="sr-onln">기사</span>
+                      '땅만 빌리지' 윤두준 "전역 후 강원도 자연 그리워져, 스스럼 없이 참여"
+                    </strong>
+                    <span class="content__sub-text text-effect--underline">
+                      한국일보
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="content__slider-item">
+                <a class="content__slider-link" href="#">
+                  <div class="content__img-cover content__img-cover05"></div>
+                  <div class="content__left-text">
+                    <strong class="content__subject text-effect--underline">
+                      <span class="sr-onln">기사</span>
+                      뮤지컬 '그날들' 11월 개막, 유준상·정성화·양요섭·인성 출연
+                    </strong>
+                    <span class="content__sub-text text-effect--underline">
+                      뉴데일리
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+          <!-- Content - Notice -->
+          <section class="content content-notice">
+            <div class="content__header">
+              <h2 class="content__title">Notice</h2>
+              <div class="content__header-right">
+                <a class="btn-icon btn-icon--more" href="#">공지 더보기</a>
+              </div>
+            </div>
+            <div class="content__board">
+              <ul class="content__board-list">
+                <li class="content__board-item">
+                  <a class="content__board-link" href="#">
+                    <dl>
+                      <dt>[공지] Around US Ent. 공식 홈페이지 리뉴얼 안내</dt>
+                      <dd>2020.07.08</dd>
+                    </dl>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="main__section">
+          <!-- Content - Social Media -->
+          <section class="content content-sns">
+            <div class="content__header">
+              <h2 class="content__title">Social Media</h2>
+              <button class="btn-icon btn-icon--prev swiper__btn-arrow">SNS 슬라이드 왼쪽으로 이동</button>
+              <button class="btn-icon btn-icon--next swiper__btn-arrow">SNS 슬라이드 오른쪽으로 이동</button>
+            </div>
+            <div class="content__swiper">
+              <div class="content__swiper-item content__swiper-item01">
+                <a class="content__swiper-link" href="#">
+                  <span class="icon-sns icon-sns--twitter">Twitter</span>
+                  <p class="content__sns-content">
+                    [LIGHT_2ND][to. LIGHT] MC 양요섭♡ MU:TALK LIVE 비하인드의 비하인드!<br><br>
+                    * 본 콘텐츠는 라이트(Light) 2기 가입자에 한하여 열람이 가능합니다
+                  </p>
+                </a>
+                <a class="content__swiper-link--mobile" href="#">
+                  <p class="content__sns-content">
+                    [LIGHT_2ND][to. LIGHT] MC 양요섭♡ MU:TALK LIVE 비하인드의 비하인드!<br><br>
+                    * 본 콘텐츠는 라이트(Light) 2기 가입자에 한하여 열람이 가능합니다
+                  </p>
+                </a>
+              </div>
+              <div class="content__swiper-item content__swiper-item02">
+                <a class="content__swiper-link" href="#">
+                  <span class="icon-sns icon-sns--twitter">Twitter</span>
+                  <p class="content__sns-content">
+                    긴 시간 동안 서로에게 든든한 울타리가 되어준 하이♡라이트! 지금까지 채워온 페이지들과 더불어 앞으로 펼쳐질 새로운 페이지들도 언제나 '서로'함께, 누구보다 아름답게 그려나갈 수
+                  </p>
+                </a>
+                <a class="content__swiper-link--mobile" href="#">
+                  <p class="content__sns-content">
+                    긴 시간 동안 서로에게 든든한 울타리가 되어준 하이♡라이트! 지금까지 채워온 페이지들과 더불어 앞으로 펼쳐질 새로운 페이지들도 언제나 '서로'함께, 누구보다 아름답게 그려나갈 수
+                  </p>
+                </a>
+              </div>
+              <div class="content__swiper-item content__swiper-item03">
+                <a class="content__swiper-link" href="#">
+                  <span class="icon-sns icon-sns--twitter">Twitter</span>
+                  <p class="content__sns-content">
+                    놓칠 수 없는 오늘의 하이라이트(Highlight)<br><br>
+                    20:00 [두준/요섭] V LIVE 하이라이트의 루프탑라이브! (https://vlive.tv/video/217809)
+                  </p>
+                </a>
+                <a class="content__swiper-link--mobile" href="#">
+                  <p class="content__sns-content">
+                    놓칠 수 없는 오늘의 하이라이트(Highlight)<br><br>
+                    20:00 [두준/요섭] V LIVE 하이라이트의 루프탑라이브! (https://vlive.tv/video/217809)
+                  </p>
+                </a>
+              </div>
+              <div class="content__swiper-item content__swiper-item04">
+                <a class="content__swiper-link" href="#">
+                  <span class="icon-sns icon-sns--instagram">Instagram</span>
+                  <p class="content__sns-content">
+                    [From. Highlight] 하이라이트(Highlight)가 전하는 11주년 축하 메세지<br>.<br>.<br>
+                    ※ 현재 군 복무 중인 이기광, 손동운 님의 11주년 기념 인사는 부대 내
+                  </p>
+                </a>
+                <a class="content__swiper-link--mobile" href="#">
+                  <p class="content__sns-content">
+                    [From. Highlight] 하이라이트(Highlight)가 전하는 11주년 축하 메세지<br>.<br>.<br>
+                    ※ 현재 군 복무 중인 이기광, 손동운 님의 11주년 기념 인사는 부대 내
+                  </p>
+                </a>
+              </div>
+              <div class="content__swiper-item content__swiper-item05">
+                <a class="content__swiper-link" href="#">
+                  <span class="icon-sns icon-sns--twitter">Twitter</span>
+                  <p class="content__sns-content">
+                    HIGHLIGHT Congratulation for the 11th Anniversary!<br><br>
+                    하이라이트와 라이트의 11년, &lt;함께함&gt;이 그저 `기쁨`과 `행복`이라는 것을 알려
+                  </p>
+                </a>
+                <a class="content__swiper-link--mobile" href="#">
+                  <p class="content__sns-content">
+                    HIGHLIGHT Congratulation for the 11th Anniversary!<br><br>
+                    하이라이트와 라이트의 11년, &lt;함께함&gt;이 그저 `기쁨`과 `행복`이라는 것을 알려
+                  </p>
+                </a>
+              </div>
+              <div class="content__swiper-item content__swiper-item06">
+                <a class="content__swiper-link" href="#">
+                  <span class="icon-sns icon-sns--twitter">Twitter</span>
+                  <p class="content__sns-content">
+                    HIGHLIGHT Congratulation for the 11th Anniversary!<br><br>
+                    하이라이트와 라이트의 11년, &lt;함께함&gt;이 그저 `기쁨`과 `행복`이라는 것을 알려
+                  </p>
+                </a>
+                <a class="content__swiper-link--mobile" href="#">
+                  <p class="content__sns-content">
+                    HIGHLIGHT Congratulation for the 11th Anniversary!<br><br>
+                    하이라이트와 라이트의 11년, &lt;함께함&gt;이 그저 `기쁨`과 `행복`이라는 것을 알려
+                  </p>
+                </a>
+              </div>
+              <div class="content__swiper-item content__swiper-item07">
+                <a class="content__swiper-link" href="#">
+                  <span class="icon-sns icon-sns--twitter">Twitter</span>
+                  <p class="content__sns-content">
+                    놓칠 수 없는 오늘의 하이라이트(Highlight)<br><br>
+                    14:00 [두준] DISCOVERY 땅만빌리지 제작발표회<br><br>
+                    예쁜 집을 짓고, 마을을 만들어 가며 여러분에게 힐링타임을
+                  </p>
+                </a>
+                <a class="content__swiper-link--mobile" href="#">
+                  <p class="content__sns-content">
+                    놓칠 수 없는 오늘의 하이라이트(Highlight)<br><br>
+                    14:00 [두준] DISCOVERY 땅만빌리지 제작발표회<br><br>
+                    예쁜 집을 짓고, 마을을 만들어 가며 여러분에게 힐링타임을
+                  </p>
+                </a>
+              </div>
+              <div class="content__swiper-item content__swiper-item08">
+                <a class="content__swiper-link" href="#">
+                  <span class="icon-sns icon-sns--twitter">Twitter</span>
+                  <p class="content__sns-content">
+                    놓칠 수 없는 오늘의 하이라이트(Highlight)<br><br>
+                    22:40 [요섭] KBS2 개는 훌륭하다<br><br>
+                    다재다능 만능캐! 센스 있는 예능감을 뽐낸 오늘의 견학생 양요섭 님의 활약
+                  </p>
+                </a>
+                <a class="content__swiper-link--mobile" href="#">
+                  <p class="content__sns-content">
+                    놓칠 수 없는 오늘의 하이라이트(Highlight)<br><br>
+                    22:40 [요섭] KBS2 개는 훌륭하다<br><br>
+                    다재다능 만능캐! 센스 있는 예능감을 뽐낸 오늘의 견학생 양요섭 님의 활약
+                  </p>
+                </a>
+              </div>
+              <div class="content__swiper-item content__swiper-item09">
+                <a class="content__swiper-link" href="#">
+                  <span class="icon-sns icon-sns--twitter">Twitter</span>
+                  <p class="content__sns-content">
+                    [LIGHT_2ND][to. LIGHT] 윤두준, 양요섭의 전역 기념 V LIVE 비하인드의 비하인드♡<br><br>
+                    * 본 콘텐츠는 라이트(Light) 2기 가입자에 한하여 열람이 가능합
+                  </p>
+                </a>
+                <a class="content__swiper-link--mobile" href="#">
+                  <p class="content__sns-content">
+                    [LIGHT_2ND][to. LIGHT] 윤두준, 양요섭의 전역 기념 V LIVE 비하인드의 비하인드♡<br><br>
+                    * 본 콘텐츠는 라이트(Light) 2기 가입자에 한하여 열람이 가능합
+                  </p>
+                </a>
+              </div>
+              <div class="content__swiper-item content__swiper-item10">
+                <a class="content__swiper-link" href="#">
+                  <span class="icon-sns icon-sns--twitter">Twitter</span>
+                  <p class="content__sns-content">
+                    [비하인드] #34. 윤두준, 양요섭의 전역 기념 V LIVE 비하인드♡<br><br>
+                    앞으로 함께 걸어갈 꽃길을 생각하며! 오늘 하루도 행복한 마음만 가득 담아 기분 좋게 마무리하시기를
+                  </p>
+                </a>
+                <a class="content__swiper-link--mobile" href="#">
+                  <p class="content__sns-content">
+                    [비하인드] #34. 윤두준, 양요섭의 전역 기념 V LIVE 비하인드♡<br><br>
+                    앞으로 함께 걸어갈 꽃길을 생각하며! 오늘 하루도 행복한 마음만 가득 담아 기분 좋게 마무리하시기를
+                  </p>
+                </a>
+              </div>
+              <div class="content__swiper-item content__swiper-item11">
+                <a class="content__swiper-link" href="#">
+                  <span class="icon-sns icon-sns--twitter">Twitter</span>
+                  <p class="content__sns-content">
+                    [LIGHT_2ND][to. LIGHT] 윤두준 + 수트 = 환상의 조합 ♥ 수트댄스 비하인드의 비하인드!<br><br>
+                    * 본 콘텐츠는 라이트(Light) 2기 가입자에 한하여 열람이 가
+                  </p>
+                </a>
+                <a class="content__swiper-link--mobile" href="#">
+                  <p class="content__sns-content">
+                    [LIGHT_2ND][to. LIGHT] 윤두준 + 수트 = 환상의 조합 ♥ 수트댄스 비하인드의 비하인드!<br><br>
+                    * 본 콘텐츠는 라이트(Light) 2기 가입자에 한하여 열람이 가
+                  </p>
+                </a>
+              </div>
+              <div class="content__swiper-item content__swiper-item12">
+                <a class="content__swiper-link" href="#">
+                  <span class="icon-sns icon-sns--twitter">Twitter</span>
+                  <p class="content__sns-content">
+                    놓칠 수 없는 오늘의 하이라이트(Highlight)<br><br>
+                    19:00 [두준] EBS 라디오 청소년 소통 프로젝트 경청 (주파수 104.5MHz / 반디 APP / 보이는 라디오)
+                  </p>
+                </a>
+                <a class="content__swiper-link--mobile" href="#">
+                  <p class="content__sns-content">
+                    놓칠 수 없는 오늘의 하이라이트(Highlight)<br><br>
+                    19:00 [두준] EBS 라디오 청소년 소통 프로젝트 경청 (주파수 104.5MHz / 반디 APP / 보이는 라디오)
+                  </p>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer__copyright">
+        Copyright © 2020 Around US Entertainment.
+      </p>
+      <p class="footer__made">
+        <a href="#">Made by THE GRAP.</a>
+      </p>
+    </footer>
+  </div>
+  <!-- JS -->
+  <script type="text/javascript" src="./js/nav.js"></script>
+  <script type="text/javascript" src="./js/slider.js"></script>
+</body>
+</html>

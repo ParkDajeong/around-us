@@ -1,0 +1,46 @@
+* {
+  font-family: "Raleway", "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  /* outline: none; */
+}
+
+html,
+body {
+  color: #2d2d2d;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+  -webkit-text-size-adjust: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem;
+}
+
+button {
+  background: none;
+  padding: 0;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+input {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,70 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+.btn-icon {
+  width: 32px;
+  height: 32px;
+  font-size: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.btn-icon--close {
+  background-image: url(../assets/icon_m_close.svg);
+}
+
+.btn-icon--menu {
+  background-image: url(../assets/icon_mobile_menu_bk.svg);
+}
+
+.btn-icon--more {
+  background-image: url(../assets/icon_plus.svg);
+}
+
+.btn-icon--prev {
+  background: url(../assets/icon_prev.svg);
+}
+
+.btn-icon--next {
+  background: url(../assets/icon_next.svg);
+}
+
+.text-effect--underline {
+  position: relative;
+}
+
+.text-effect--underline::after {
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  content: "";
+  width: 0;
+  height: 1px;
+  margin: 0 auto;
+  transition: width 500ms ease-out;
+}
+
+.icon-sns {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 50px 0 0 13px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  text-indent: -9999px;
+}
+
+.icon-sns--twitter {
+  background-image: url(../assets/icon_tw_bk2.svg);
+}
+
+.icon-sns--instagram {
+  background-image: url(../assets/icon_is_bk.svg);
+}
